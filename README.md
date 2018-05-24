@@ -14,4 +14,4 @@
 - ingresar a la carpeta API desde el cmd de windows
 - ejecutar el comando npm start
 
-#se agregan 2 videos de pruebas verificando la funcionalidad de la app
+# se agregan 2 videos de pruebas verificando la funcionalidad de la app
