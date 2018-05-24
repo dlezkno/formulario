@@ -1,0 +1,11 @@
+
+<fieldset>
+  <input type="text" placeholder="Nombre" [(ngModel)]="user.name" />
+  <input type="email" placeholder="Email" [(ngModel)]="user.lastName"  />
+  <input type="number" placeholder="Celular" [(ngModel)]="user.cel"  />
+  <label style="display: inherit;">edad:</label>
+  <span>18</span><span style="margin-left: 90%;">100</span>
+  <input type="range" placeholder="edad" min="18" max="100" [(ngModel)]="user.range" value="18"/>
+  
+  <button id="btn_client" (click)="validateData();" class="next action-button">Next</button>
+</fieldset>

@@ -1,0 +1,14 @@
+<div class="div">
+    <ul>
+        <li *ngFor="let li of lis" (click)="loadName(li.name);"> 
+            {{ li.name }}
+        </li>
+    </ul>
+</div>
+<div class="div">
+    <h1 *ngIf="name != ''">
+        Hola, bienvenido, sabemos que quieres viajar en un {{name}}
+    </h1>
+</div>
+
+<app-form></app-form>
